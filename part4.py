@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 np.random.seed(0)
-db = pd.read_csv("data.csv")
+db = pd.read_csv("./breast_cancer_data/data.csv")
 
 # Prediction of Whether Cancer is Benign or Malignant 
 db_trunc = db['diagnosis']
